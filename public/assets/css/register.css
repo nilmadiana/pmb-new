@@ -1,0 +1,35 @@
+
+body {
+    background: url('../images/contact-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+    background: #00B4DB;
+    color: white;
+    font-weight: bold;
+}
+.form-group label {
+    font-weight: bold;
+}
+.register-container {
+    text-align: center;
+}
+.btn-primary {
+    background: #00B4DB;
+    border: none;
+}
+.btn-primary:hover {
+    background: #0083B0;
+}
+.image-container {
+    margin-bottom: 20px;
+}
